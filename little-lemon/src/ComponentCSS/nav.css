@@ -1,0 +1,8 @@
+nav {
+  background-color: #edefee;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}

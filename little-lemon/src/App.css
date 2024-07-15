@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/*.markazi-text- {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.karla-<uniquifier> {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+} */
+
+h1 {
+  font-family: "Markazi Text", serif;
+  font-size: 6.4vh;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 4vh;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Karla", sans-serif;
+  font-size: 2vh;
+  font-weight: 800;
+}
+
+h4 {
+  font-family: "Karla", sans-serif;
+  font-size: 1.8vh;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.6vh;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+}

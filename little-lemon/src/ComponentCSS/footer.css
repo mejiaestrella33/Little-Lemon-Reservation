@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.Navigation {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SocialMedia {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

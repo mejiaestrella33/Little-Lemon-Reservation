@@ -1,3 +1,4 @@
+import "../ComponentCSS/nav.css";
 function Nav() {
   return (
     <nav>
