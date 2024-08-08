@@ -22,11 +22,6 @@ function App() {
       <Header />
       <Main />
       <Footer />
-      <h1> Title </h1>
-      <h2> subtitle </h2>
-      <h3>section title</h3>
-      <h4>card title</h4>
-      <p>paragraph text</p>
     </Fragment>
   );
 }

@@ -1,11 +1,12 @@
 import "../ComponentCSS/footer.css";
-
+import LLLogo from "../icons_assets/Logo.svg";
 function Footer() {
   return (
     <footer>
-      <ul>
+      <ul className="Footer_Section">
+        <img alt="Lemon Logo" className="Logo" src={LLLogo}></img>
         <ul className="Navigation">
-          <h4>Doormat Navigation</h4>
+          <h4>Navigation</h4>
           <a>Home</a>
           <a>About</a>
           <a>Menu</a>

@@ -58,18 +58,24 @@ h1 {
   font-family: "Markazi Text", serif;
   font-size: 6.4vh;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
   font-family: "Markazi Text", serif;
   font-size: 4vh;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 h3 {
   font-family: "Karla", sans-serif;
   font-size: 2vh;
   font-weight: 800;
+  margin: 0;
+  padding: 0;
 }
 
 h4 {

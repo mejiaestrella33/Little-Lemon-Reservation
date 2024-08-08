@@ -1,21 +1,43 @@
 footer {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 .Navigation {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .Contact {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .SocialMedia {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Footer_Section {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
+a {
+  margin: 0.5vh;
+  padding: 0;
 }

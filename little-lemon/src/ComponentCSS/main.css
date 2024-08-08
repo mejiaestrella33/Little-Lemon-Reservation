@@ -2,8 +2,132 @@ main {
   display: flex;
   flex-direction: column;
 }
+.Button {
+  background-color: #333333;
+  padding: 1vh;
+  border-radius: 1vh;
+  width: 16vh;
+  display: flex;
+  justify-content: center;
+  color: #edefee;
+}
+
+.Intro {
+  margin: 0;
+  padding: 1vh;
+  background-color: #495e57;
+}
+
 .MainList {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.Intro_List {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh;
+}
+
+.Into_Image {
+  background-color: #f4ce14;
+  padding: 0.5vh;
+  margin: 2vh;
+  width: 15vh;
+}
+
+.Specials {
+  background-color: #edefee;
+  padding: 1vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+
+.Specials_Header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh;
+}
+
+.Greek_Salad_Image {
+  width: 25vh;
+  justify-self: center;
+}
+
+.Specials_Modules {
+  display: flex;
+}
+
+.Specials_Subheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Special_Module {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+}
+
+.price {
+  color: #ee9972;
+}
+
+.Testimonial_Section {
+  background-color: #fbdabb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.Testimonials {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10vh;
+  margin-left: 10vh;
+}
+
+.Testimonial {
+  padding: 1vh;
+}
+.Testimonial_Image {
+  width: 4vh;
+  height: auto;
+  padding: 2vh;
+}
+.customer_info {
+  display: flex;
+}
+
+.About {
+  display: flex;
+  background-color: #edefee;
+  padding: 2vh;
+}
+
+.About_Info {
+  padding: 4vh;
+}
+
+.About_Photos {
+  display: flex;
+}
+
+.food1 {
+  height: 20vh;
+  margin-top: 12vh;
+  margin-bottom: -3vh;
+  margin-right: -7vh;
+}
+
+.food2 {
+  height: 20vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: -5vh;
 }

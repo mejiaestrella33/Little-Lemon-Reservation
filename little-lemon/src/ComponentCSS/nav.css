@@ -1,7 +1,10 @@
 nav {
 }
 
-ul {
+.navBar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+a {
+  margin: 1.5vh;
 }

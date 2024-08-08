@@ -2,7 +2,7 @@ import "../ComponentCSS/nav.css";
 function Nav() {
   return (
     <nav>
-      <ul>
+      <ul className="navBar">
         <a>Home</a>
         <a>About</a>
         <a>Menu</a>
