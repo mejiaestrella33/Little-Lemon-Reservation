@@ -9,6 +9,8 @@ import Joey from "../icons_assets/Joey.jpg";
 import food1 from "../icons_assets/Mario and Adrian A.jpg";
 import food2 from "../icons_assets/restaurant.jpg";
 
+import { Link } from "react-router-dom";
+
 function Main() {
   return (
     <main>
@@ -22,7 +24,9 @@ function Main() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <h4 className="Button">Reserve a Table</h4>
+              <Link to="/booking" className="Button">
+                Reserve a Table
+              </Link>
             </div>
             <div className="Into_Image">
               <img className="Into_Image" alt="Home Logo" src={homeIcon}></img>

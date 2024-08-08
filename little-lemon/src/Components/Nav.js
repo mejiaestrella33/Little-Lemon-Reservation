@@ -1,12 +1,15 @@
 import "../ComponentCSS/nav.css";
+import BookingPage from "../Components/BookingPage";
+import HomePage from "../App";
+import { Link } from "react-router-dom";
+
 function Nav() {
   return (
     <nav>
       <ul className="navBar">
-        <a>Home</a>
+        <Link to="/">Home</Link>
         <a>About</a>
         <a>Menu</a>
-        <a>Reservations</a>
         <a>Order Online</a>
         <a>Login</a>
       </ul>
